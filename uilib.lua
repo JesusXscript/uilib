@@ -1,8 +1,3 @@
-if game:GetService("CoreGui"):FindFirstChild("ScreenGui") then
-    game:GetService("CoreGui"):FindFirstChild("ScreenGui"):Destroy()
-    end
-
-_G.Logo = 0000
 local library = {
 	Version = "0.36",
 	WorkspaceName = "Pepsi Lib",
@@ -7222,5 +7217,3 @@ library.NewWindow = library.CreateWindow
 library.AddWindow = library.CreateWindow
 library.Window = library.CreateWindow
 library.W = library.CreateWindow
-
-local Wait = library.subs.Wait
