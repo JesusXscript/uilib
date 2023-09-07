@@ -1,3 +1,7 @@
+if game:GetService("CoreGui"):FindFirstChild("ScreenGui") then
+    game:GetService("CoreGui"):FindFirstChild("ScreenGui"):Destroy()
+    end
+
 local library = {
 	Version = "0.36",
 	WorkspaceName = "Pepsi Lib",
