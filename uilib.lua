@@ -457,7 +457,7 @@ function redzLib:Destroy()SreenGui:Destroy()end
 function redzLib:MakeWindow(Configs)
   local Minimized, WaitMinimize, SavedSize
   local WTitle = Configs[1] or Configs.Title or "redz library"
-  local SubTitle = Configs[2] or Configs.SubTitle or "by : redz9999"
+  local SubTitle = Configs[2] or Configs.SubTitle or "Serkrxn Hub Loading .."
   local LoadTitle = Configs[3] or Configs.LoadText or SubTitle
   local DefaultTheme = Configs[4] or Configs.DefaultTheme or false
   local SaveCfg = Configs[5] or Configs.Flags or "redz Library v4 | Flags.lua"
